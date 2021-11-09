@@ -1,0 +1,32 @@
+.store {
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-bottom: 50px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -15px;
+  gap: 50px;
+  padding: 10px 30px;
+}
+
+.search__container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.cards__container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 40px;
+  justify-items: center;
+}

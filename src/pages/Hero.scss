@@ -1,0 +1,16 @@
+.hero {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(249, 228, 148, 0.5), rgba(249, 228, 148, 0.5)), url("https://github.com/JS-Beginners/filter-project/blob/main/img/headerBcg.jpeg?raw=true") center/cover fixed no-repeat;
+  position: relative;
+  min-height: calc(100vh - 76px);
+
+  & Button {
+    font-size: 24px;
+    border: 3px solid #000000;
+    max-width: 130px;
+  }
+}

@@ -1,0 +1,18 @@
+.button {
+  border-radius: 5px;
+  border: 1px solid #000000;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  background-color: transparent;
+
+  &:hover {
+    background-color: #000000;
+    color: #ef7998;
+  }
+}
